@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'xbox-font';
+}
+.header img{
+    margin-right: 10px;
+}
+
+.dados .container{
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 20px;
+}
+
+.dados .container input{
+    border-radius: 15px;
+    font-family: 'xbox-font'
+}
+
+.dados .container button{
+    border-radius: 15px;
+    width: 100%;
+    font-family: 'xbox-font'
+}
+
+@font-face{
+    font-family: 'xbox-font';
+    src: url('../font/X360.ttf');
+}

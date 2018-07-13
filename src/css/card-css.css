@@ -1,0 +1,114 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 60px;
+    margin-left: 30px;
+}
+
+.card-gamertag{
+    margin-top: 50px;
+    width: 250;
+    height: 150;
+    background-color: rgb(241, 241, 241);
+    border-radius: 40px;
+}
+
+.card-gamertag .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-gamertag .container .card-top {
+    padding: 10px;
+    
+    margin-top: 15px;
+    background-color:  rgb(40, 40, 40);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    color: rgb(241, 241, 241);
+    font-family: 'xbox-font';
+}
+.card-gamertag .container .card-top .xbox-name{
+    color: rgb(16, 124, 16);
+    margin-left: 30px;
+}
+.card-gamertag .container .card-top .xbox-name strong {
+    color: rgb(107, 107, 107);
+}
+.card-gamertag .container .card-top .xbox-player{
+    color: rgb(194, 194, 194);
+    margin-left: 30px;
+}
+
+.card-gamertag .container .card-content {
+    
+    font-family: 'xbox-font';
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(241, 241, 241);
+    font-family: 'xbox-font';
+}
+
+.card-gamertag .container .card-content .avatar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 128px;
+}
+.card-gamertag .container .card-content .info-player{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: rgb(58, 58, 58);
+    font-family: 'xbox-font';
+}
+.card-gamertag .container .card-content .info-player h5{
+    color: rgb(194, 194, 194)
+}
+.card-gamertag .container .card-content .info-player h1, h2, h5{
+    margin: 0;
+}
+.card-gamertag .container .card-footer { 
+
+    margin-bottom: 15px;
+    background-color: rgb(40, 40, 40);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+
+.card-gamertag .container .card-footer h5{
+
+    margin: 10px;
+    text-align: end;
+    padding-right: 10px;
+    font-size: 8pt;
+    color: rgb(194, 194, 194)
+}
+
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@font-face{
+    font-family: 'xbox-font';
+    src: url('../font/X360.ttf');
+}
